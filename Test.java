@@ -130,7 +130,7 @@ public class Test
         if (user2.printLastMail() == 1){
             numeroDeTestOk =numeroDeTestOk + 1;
             System.out.println("Funciona");
-            user1.printLastMail();
+            user2.printLastMail();
         }
         else {
             numeroDeTestFail = numeroDeTestFail + 1;
@@ -145,7 +145,7 @@ public class Test
         if (user2.printLastMail() == 1){
             numeroDeTestOk =numeroDeTestOk + 1;
             System.out.println("Funciona");
-            user1.printLastMail();
+            user2.printLastMail();
         }
         else {
             numeroDeTestFail = numeroDeTestFail + 1;
